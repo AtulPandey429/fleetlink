@@ -1,0 +1,31 @@
+.container {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.heading {
+  margin-bottom: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.button {
+  padding: 0.75rem;
+  border-radius: 8px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

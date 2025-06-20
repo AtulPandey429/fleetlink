@@ -1,0 +1,42 @@
+.headerBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #627289;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.headerLogo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.headerNav {
+  display: flex;
+  gap: 1rem;
+}
+
+.headerLink,
+.headerActive {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.headerLink {
+  color: white;
+}
+
+.headerLink:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.headerActive {
+  background-color: white;
+  color: #35527c;
+  font-weight: 600;
+}
