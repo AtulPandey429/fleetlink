@@ -105,7 +105,7 @@ fleetlink/
      - Port: `80`
      - Add `.env` file:
        ```
-       VITE_API_URL=https://fleetlink-backend.onrender.com/api
+       VITE_API_URL=https://fleetlink-8yg2.onrender.com/api
        ```
 
 ## 💻 Local Development
@@ -158,7 +158,7 @@ npm install express mongoose cors dotenv
 - [Atul Pandey](https://github.com/yourprofile) - Project Author
 
 ## 📄 License
-MIT © 2023 Atul Pandey
+MIT © 2025 Atul Pandey
 ```
 
 
