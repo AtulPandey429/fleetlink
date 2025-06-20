@@ -13,6 +13,7 @@ FleetLink is a full-stack vehicle booking platform that simplifies fleet managem
 - Intuitive search by pincode, capacity, and date range
 - Instant booking confirmation
 - One-click cancellations with confirmation dialogs
+- Cancel bookings via DELETE API with confirmation modal
 
 ### 📊 Reporting Tools
 - Export bookings to PDF/CSV with custom date filters
@@ -40,7 +41,6 @@ FleetLink is a full-stack vehicle booking platform that simplifies fleet managem
 ### Deployment
 - Docker containerization
 - Render.com hosting
-- CI/CD via GitHub integration
 
 ## 🔗 Live Demos
 - **Frontend**: [https://fleetlink-frontend.onrender.com](https://fleetlink-frontend.onrender.com)
@@ -139,6 +139,7 @@ npm run dev
 | `/api/vehicles` | POST | Add new vehicle |
 | `/api/bookings` | GET | Get all bookings |
 | `/api/bookings` | POST | Create new booking |
+| `/api/bookings/:id` | DELETE | Cancel a booking by ID |
 
 
 ## 📦 Dependencies
