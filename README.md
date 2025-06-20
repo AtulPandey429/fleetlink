@@ -1,6 +1,3 @@
-Here's an improved version of your README with better organization, visual hierarchy, and additional useful sections:
-
-```markdown
 # 🚀 FleetLink – Modern Vehicle Booking System
 
 FleetLink is a full-stack vehicle booking platform that simplifies fleet management with intuitive booking, cancellation, and reporting features.
