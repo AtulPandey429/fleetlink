@@ -10,7 +10,9 @@ yarn-debug.log*
 yarn-error.log*
 
 # Environment variables
-**/.env
+# Ignore all except frontend .env (needed for Vite build on Render)
+# You MUST commit frontend/.env
+/backend/.env
 .env.local
 .env.development
 .env.production
